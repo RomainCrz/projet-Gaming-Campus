@@ -376,7 +376,7 @@ footer{
     #milieu_page{
         flex-direction: column;
         height: 700px;
-        padding-top: 20px;
+        padding-top: 50px;
         padding-bottom: 50px;
         max-width: 300px;
     }
