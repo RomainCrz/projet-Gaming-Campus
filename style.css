@@ -101,7 +101,8 @@ nav p:hover{
 #imagine{
     font-weight: bold;
     text-align: center;
-    margin : 40px 100px;
+    margin : 40px auto;
+    max-width: 1100px;
 }
 #milieu_page{
     background-color: rgb(12, 12, 12);
@@ -160,11 +161,15 @@ nav p:hover{
 .paragraphe{
     font-size: 0.6rem;
 }
-#news{
+.conteneur{
     background-color: rgb(252, 246, 239);
+}
+#news{
     display: flex;
     justify-content: space-around ;
     padding : 40px 10% 0px 10%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 #news_texte h3 {
     font-weight: 400;
@@ -190,11 +195,12 @@ nav p:hover{
 }
 
 #new_container{
-    background-color: rgb(252, 246, 239);
     display: flex;
     justify-content: space-around;
-    padding: 30px 10% 0px 10%;
+    padding-top: 30px;
     height: 320px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 #new_container img{
     height: 110px;
